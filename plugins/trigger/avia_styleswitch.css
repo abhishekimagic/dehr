@@ -1,0 +1,288 @@
+#top .avia_styleswitcher{
+position: absolute;
+left:0px;
+top:170px;
+padding:20px 20px 20px 100px;
+border-radius:5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+background: #fff;
+border:1px solid #e1e1e1;
+z-index: 9;
+/*font-size: 11px;
+color:#777;
+line-height: 16px;*/
+-moz-box-shadow: 1px 1px 5px #333;
+-webkit-box-shadow: 1px 1px 5px #333;
+box-shadow: 1px 1px 5px #333;
+
+}
+
+#top .switcher_right.avia_styleswitcher{
+right:-297px;
+left:auto;
+top:170px;
+padding:30px 25px 20px 20px;
+position: fixed;
+}
+
+#top .switcher_right.avia_styleswitcher2{
+right:-75px;
+left:auto;
+top:480px;
+padding:15px 105px 3px 15px;
+position: fixed;
+}
+
+#top .display_switch_false{
+left:-297px;
+}
+
+#top .switcher_right.display_switch_false{
+right:-5px;
+left:auto;
+}
+
+.avia_styleswitch_form{
+width:250px;
+position: relative;
+}
+
+#top .avia_styleswitcher input, #top .avia_styleswitcher select, #top .avia_styleswitcher textarea {
+/*border:1px solid #e1e1e1;
+padding:7px 5px;
+color:#777;
+margin: 0 0 12px 0;
+border-radius:3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+width:100%;
+font-size:12px; font-family: 'Open Sans', sans-serif;*/
+}
+
+#top .avia_styleswitcher .form-control{
+background: #f9f9f9; font-size:14px;
+}
+
+
+#top .avia_styleswitcher .avia_submit{
+cursor: pointer; background-color:#43494c; color:#fff; font-weight:600; font-size:14px; font-family: 'Open Sans', sans-serif; width:80px; border:none; }
+
+#top .avia_styleswitcher .avia_submit:hover{
+cursor: pointer; background-color:#233340; color:#fff; font-weight:600; font-size:14px; font-family: 'Open Sans', sans-serif; border:none; }
+
+#top .avia_styleswitcher2 .avia_submit{
+cursor: pointer; background-color:#43494c; color:#fff; font-weight:600; font-size:14px; font-family: 'Open Sans', sans-serif; width:80px; border:none; }
+
+#top .avia_styleswitcher2 .avia_submit:hover{
+cursor: pointer; background-color:#233340; color:#fff; font-weight:600; font-size:14px; font-family: 'Open Sans', sans-serif; border:none; }
+
+#top .avia_styleswitcher .strongblock{
+display:block;
+}
+
+#top .avia_styleswitcher2 .strongblock{
+display:block;
+}
+
+.avia_styleswitcher .avia_hr{
+display: block;
+clear: both;
+border-bottom: 1px solid #e1e1e1;
+margin:5px 0 10px 0;
+}
+.avia_styleswitcher2 .avia_hr{
+display: block;
+clear: both;
+border-bottom: 1px solid #e1e1e1;
+margin:5px 0 10px 0;
+}
+
+.avia_styleswitcher strong{
+color:#555;
+}
+
+.avia_styleswitcher2 strong{
+color:#555;
+}
+
+
+
+.avia_styleswitcher2 .openclose {
+    cursor: pointer;
+    display: block;
+    height: 301px;
+    position: absolute;
+    right: -34px;
+    width: 35px;
+    background: transparent url(button.png) no-repeat top left;
+}
+
+.avia_styleswitcher .openclose {
+    cursor: pointer;
+    display: block;
+    height: 301px;
+    position: absolute;
+    right: -34px;
+    width: 35px;
+    background: transparent url(button.png) no-repeat top left;
+}
+
+.avia_styleswitche2 .openclose {
+    cursor: pointer;
+    display: block;
+    height: 301px;
+    position: absolute;
+    right: -34px;
+    width: 35px;
+    background: transparent url(button.png) no-repeat top left;
+}
+
+.avia_styleswitcher.switcher_right .openclose {
+	cursor: pointer;
+	display: block;
+	height: 219px;
+	position: absolute;
+	left: -42px;
+	right: auto;
+	width: 50px;	
+	background-image: url(images/quick2.png);
+	background-repeat: no-repeat;	
+    
+}
+
+.avia_styleswitcher2.switcher_right .openclose {
+    cursor: pointer;
+    display: block;
+    height: 159px;
+    position: absolute;
+    left: -40px;
+    right:auto;
+    width: 39px; background-image:url(../images/friend.jpg); background-repeat:no-repeat;
+}
+
+
+
+#top .openclosedisplay_switch{
+
+
+}
+
+#top .openclosedisplay_switch_false{
+
+}
+
+
+#top .avia_styleswitcher .avia_style_wrap input, #top .avia_styleswitcher .avia_style_wrap select{
+margin:0;
+}
+
+#top .avia_styleswitcher2 .avia_style_wrap input, #top .avia_styleswitcher2 .avia_style_wrap select{
+margin:0;
+}
+
+.avia_styleswitcher .style_sw_heading{
+display: block;
+clear: both;
+margin-top:3px;
+}
+
+.avia_styleswitcher2 .style_sw_heading{
+display: block;
+clear: both;
+margin-top:3px;
+}
+
+.avia_styleswitcher .link_controller_list{
+overflow: hidden;
+clear: both;
+padding:0 0 10px 0;
+}
+
+.avia_styleswitcher2 .link_controller_list{
+overflow: hidden;
+clear: both;
+padding:0 0 10px 0;
+}
+
+.avia_styleswitcher .link_controller_list a{
+display:block;
+margin:0 1px 1px 0;
+color: #fff;
+padding:5px 0;
+float: left;
+width:65px;
+text-align: center;
+text-decoration: none;
+}
+
+.avia_styleswitcher2 .link_controller_list a{
+display:block;
+margin:0 1px 1px 0;
+color: #fff;
+padding:5px 0;
+float: left;
+width:65px;
+text-align: center;
+text-decoration: none;
+}
+
+.avia_styleswitcher .link_controller_list_mini a{
+width:49px;
+}
+
+.avia_styleswitcher2 .link_controller_list_mini a{
+width:49px;
+}
+
+.avia_styleswitcher .link_controller_list_big a{
+width:98px;
+}
+
+.avia_styleswitcher2 .link_controller_list_big a{
+width:98px;
+}
+
+
+
+.avia_styleswitcher .link_controller_list a.avia_link_controller_active, .avia_styleswitcher .link_controller_list a:hover{
+box-shadow: inset 0 0 0 2px  rgba(255, 255, 255, 0.3);
+-webkit-box-shadow: inset 0 0 0 2px   rgba(255, 255, 255, 0.3);
+-moz-box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.3);
+text-decoration: underline;
+}
+
+.avia_styleswitcher2 .link_controller_list a.avia_link_controller_active, .avia_styleswitcher2 .link_controller_list a:hover{
+box-shadow: inset 0 0 0 2px  rgba(255, 255, 255, 0.3);
+-webkit-box-shadow: inset 0 0 0 2px   rgba(255, 255, 255, 0.3);
+-moz-box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.3);
+text-decoration: underline;
+}
+
+.avia_styleswitcher .avia_loader {
+height: 12px;
+width: 12px;
+display: block;
+position: absolute;
+background: transparent url(loading.gif) no-repeat top left;
+bottom: 21px;
+right: 25px;
+visibility: hidden;
+}
+
+
+.avia_styleswitcher2 .avia_loader {
+height: 12px;
+width: 12px;
+display: block;
+position: absolute;
+background: transparent url(loading.gif) no-repeat top left;
+bottom: 21px;
+right: 25px;
+visibility: hidden;
+}
+
+body .avia_style_switch_reset_style{
+color:#888;		
+}
+
